@@ -1,0 +1,27 @@
+# 环境变量与密钥（务必不要提交）
+.env
+.env.local
+
+# 打包产物与可执行文件（通过 Releases 分发，不进仓库正文）
+dist/
+build/
+*.exe
+
+# 本地备份
+.backups/
+
+# 中间过程原始输出（保留结构化结果，排除原始 dump）
+results/**/*_raw.json
+results/app_raw/
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

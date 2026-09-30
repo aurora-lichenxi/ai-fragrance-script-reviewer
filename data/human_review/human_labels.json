@@ -1,0 +1,123 @@
+{
+  "滕Sir": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Reminder",
+      "A3": "Pass",
+      "A4": "Reminder",
+      "A5": "Reminder",
+      "A6": "Reminder"
+    },
+    "overall": "Reminder"
+  },
+  "七万的日记本": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Pass",
+      "A3": "Pass",
+      "A4": "Reminder",
+      "A5": "Needs Revision",
+      "A6": "Needs Revision"
+    },
+    "overall": "Needs Revision"
+  },
+  "丸子在这里": {
+    "dims": {
+      "A1": "Reminder",
+      "A2": "Reminder",
+      "A3": "Pass",
+      "A4": "Pass",
+      "A5": "Reminder",
+      "A6": "Reminder"
+    },
+    "overall": "Reminder"
+  },
+  "王微斯的生活号": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Pass",
+      "A3": "Pass",
+      "A4": "Reminder",
+      "A5": "Pass",
+      "A6": "Pass"
+    },
+    "overall": "Reminder"
+  },
+  "池一": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Reminder",
+      "A3": "Pass",
+      "A4": "Reminder",
+      "A5": "Pass",
+      "A6": "Reminder"
+    },
+    "overall": "Reminder"
+  },
+  "福师傅2.0": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Pass",
+      "A3": "Pass",
+      "A4": "Reminder",
+      "A5": "Needs Revision",
+      "A6": "Needs Revision"
+    },
+    "overall": "Needs Revision"
+  },
+  "王小小吖": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Pass",
+      "A3": "Pass",
+      "A4": "Pass",
+      "A5": "Reminder",
+      "A6": "Reminder"
+    },
+    "overall": "Reminder"
+  },
+  "等等去上学": {
+    "dims": {
+      "A1": "Reminder",
+      "A2": "Needs Revision",
+      "A3": "Pass",
+      "A4": "Pass",
+      "A5": "Needs Revision",
+      "A6": "Needs Revision"
+    },
+    "overall": "Needs Revision"
+  },
+  "肥宅助理": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Pass",
+      "A3": "Pass",
+      "A4": "Reminder",
+      "A5": "Reminder",
+      "A6": "Reminder"
+    },
+    "overall": "Needs Revision"
+  },
+  "然然吖": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Reminder",
+      "A3": "Pass",
+      "A4": "Reminder",
+      "A5": "Pass",
+      "A6": "Reminder"
+    },
+    "overall": "Reminder"
+  },
+  "精神一二": {
+    "dims": {
+      "A1": "Pass",
+      "A2": "Pass",
+      "A3": "Pass",
+      "A4": "Needs Revision",
+      "A5": "Pass",
+      "A6": "Pass"
+    },
+    "overall": "Needs Revision"
+  }
+}

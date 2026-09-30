@@ -1,0 +1,93 @@
+{
+  "_说明": "通用产品 Brief 模板 v2.0（两层架构）。复制本文件为 brief.json 后按各栏 description 引导填写。content_reference 是给 AI 阅读的背景资料，可自由叙述；rule_config 是给规则引擎执行的匹配清单，必须按格式填写。所有栏位没有内容可留空 / 填 []，程序会跳过对应检查。",
+  "brief_id": "<填写：本 brief 的编号，如 PB01>",
+  "version": "2.0",
+  "content_reference": {
+    "naming": {
+      "brand": "<填写：品牌名，如：网易严选>",
+      "sub_brand": "<填写：子品牌/子系列名，没有可留空>",
+      "series": "<填写：产品系列名，没有可留空>",
+      "generic_name": "<填写：品类通用名，如：香氛 / 洗面奶 / 跑鞋>",
+      "craft": "<填写：核心工艺/形态，如：倒置扩香 / 氨基酸表活，没有可留空>",
+      "naming_note": "<填写：名称规范写法提醒，如易错字、官方口径，没有可留空>",
+      "classification": [
+        {
+          "dimension": "<填写：分类维度名，如：香型 / 颜色 / 尺码 / 口味 / 售卖规格>",
+          "values": [
+            { "name": "<该维度下的一个取值名，如：佛手柑桔 / 黑色 / XL>", "alias": "<俗称/寓意名/业内通行叫法，没有可删>", "tags": ["<附属标签，如：柑橘调 / 360ml，没有可填[]>"] }
+          ]
+        }
+      ]
+    },
+    "specs": {
+      "capacity": "<填写：容量/规格，如：360ml/瓶>",
+      "duration": "<填写：使用寿命/有效期，没有可留空>",
+      "price": "<填写：价格与套装结构>",
+      "price_positioning": "<填写：价格定位口径，如：平价平替 / 轻奢>",
+      "_说明": "以上为示例栏，可按品类增删键名（如 重量、功率、材质），值用可核查的硬信息"
+    },
+    "official_claims": {
+      "source": "<填写：官方宣称的信息来源，如：官方商品详情页>",
+      "usage_note": "<固定保留：以下为品牌官方公示的技术名称与检测数据，属于产品自身可靠信息。脚本引用以下表述（含具体数值）时，不应判为『虚假宣传』或『绝对化用语风险』，只需检查是否与官方口径一致（数值不得夸大、技术名称不得窜改）。>",
+      "technologies": [
+        { "name": "<官方技术名，含英文原名>", "slogan": "<配套口号，没有可删>", "claim": "<一句话宣称，没有可删>" }
+      ],
+      "performance_data": [
+        { "metric": "<指标名，如：除尼古丁率>", "pollutant": "<对应污染物/对象，如：尼古丁（二手烟味），没有可删>", "value": "<数值，如：98.56%>", "condition": "<测试条件，如：24h，没有可删>" }
+      ],
+      "removable_odors": [],
+      "data_source": "<填写：数据出处说明 / 是否可提示『详情页可查』>",
+      "_说明": "本栏是 AI 层防误判的关键：官方公示数据不算虚假宣传。没有官方宣称可整体留空"
+    },
+    "audience_scenes": {
+      "target_audience": ["<填写：目标人群，如：Z世代 / 精致妈妈>"],
+      "scenes": ["<填写：使用场景，如：玄关 / 车内 / 健身房>"],
+      "pain_points": ["<填写：目标人群的真实困扰/在意点，如：异味 / 情绪价值>"],
+      "value_proposition": "<填写：一句话价值主张>"
+    },
+    "features": ["<填写：产品特色卖点词，供 AI 参考，不强制脚本出现>"],
+    "core_selling_points": [
+      {
+        "point": "<填写：核心卖点名称，如：根源除味 / 倒置设计 / 大牌平替香>",
+        "expression_ref": "<填写：可接受的表达示例（达人原话/官方口播参考），AI 据此判断脚本表达是否到位>"
+      }
+    ]
+  },
+  "rule_config": {
+    "R1": {
+      "description": "自动检查，无需填写：校验以下三栏格式是否正确（该是列表的是否为列表等）"
+    },
+    "R2": {
+      "description": "必须出现的关键词：每类至少命中一词才算通过；不要求可填 []（该类跳过检查）。类名可按需增删，以下五类为建议起点",
+      "must_appear": {
+        "brand": ["<必须出现的品牌词，如：网易严选>"],
+        "product": ["<必须出现的产品词，命中其一即过>"],
+        "scene": [],
+        "pain_point": [],
+        "feature": []
+      }
+    },
+    "R3": {
+      "description": "严禁出现的风险词：命中即 Flag（仅标注，不下违规结论）；没有可填 []",
+      "forbidden": {
+        "absolute_terms": { "description": "极限类词语（如：第一/最/顶级/唯一/首个）", "words": [] },
+        "false_authority": { "description": "违禁权威性（如：国家机关推荐/免检/官方认证）", "words": [] },
+        "medical_implication": { "description": "疑似医疗用语（如：治愈/根治/医疗级/处方）", "words": [] },
+        "_说明": "三类为通用分类，各类下没有词就保持空列表"
+      }
+    },
+    "R4": {
+      "description": "CTA 行动指令词：至少命中一个才算存在；没有可填 []",
+      "cta_words": []
+    },
+    "overall": {
+      "description": "整体判定逻辑（v1.1）：R3 无 Flag 且 AI 六维（A1-A6）无 Needs Revision → overall = Pass，否则 Needs Revision",
+      "logic": "no_flag_and_no_NR_then_pass",
+      "_说明": "目前支持 logic：no_flag_and_no_NR_then_pass。改判定口径时改此处，无需动代码"
+    }
+  },
+  "notes": {
+    "<日期>_update": "<填写：本次修改内容>",
+    "pending": "<填写：待确认事项，没有可删>"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "brief_id": "PB01",
+  "version": "2.4",
+  "content_reference": {
+    "naming": {
+      "brand": "该品牌",
+      "sub_brand": "",
+      "series": "0感香氛（倒置香氛）",
+      "generic_name": "香氛",
+      "craft": "倒置扩香",
+      "naming_note": "商详规范写法为『佛手柑桔』（桔，非橘）。达人/用户口语中另有俗称与寓意名（见 classification 各香型 alias 字段），属业内通行叫法，不视为命名错误",
+      "classification": [
+        {
+          "dimension": "香型",
+          "values": [
+            {
+              "name": "佛手柑桔",
+              "alias": "柑橘发财",
+              "tags": [
+                "柑橘调",
+                "寓意：发财"
+              ]
+            },
+            {
+              "name": "无极雪松",
+              "alias": "深邃雪松",
+              "tags": [
+                "木质调",
+                "瓶身蓝色调"
+              ]
+            },
+            {
+              "name": "桃气玫瑰",
+              "alias": "桃气玫瑰",
+              "tags": [
+                "花香调",
+                "含粉色装饰晶石与花蒂"
+              ]
+            },
+            {
+              "name": "鸢尾邂逅",
+              "alias": "邂逅森林",
+              "tags": [
+                "花果香调",
+                "瓶身紫色调"
+              ]
+            }
+          ]
+        },
+        {
+          "dimension": "售卖规格",
+          "values": [
+            {
+              "name": "单瓶装",
+              "tags": [
+                "360ml"
+              ]
+            },
+            {
+              "name": "2瓶超值装",
+              "tags": [
+                "36.9元"
+              ]
+            },
+            {
+              "name": "全家福套装",
+              "tags": [
+                "4香型组合",
+                "总净含量1440ml"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "specs": {
+      "capacity": "360ml/瓶",
+      "duration": "一瓶可使用两个多月（净味留香约70天）",
+      "price": "单瓶 24.9 元；2 瓶 36.9 元超值装；多瓶递增优惠",
+      "price_positioning": "不贵，大牌香味平替"
+    },
+    "official_claims": {
+      "source": "该品牌 0感香氛 商品详情页（官方商详）",
+      "usage_note": "以下为品牌官方商详公示的技术名称与检测数据，属于产品自身可靠信息。脚本引用以下表述（含具体数值）时，不应判为『虚假宣传』或『绝对化用语风险』，只需检查是否与官方口径一致（数值不得夸大、技术名称不得窜改）。",
+      "technologies": [
+        {
+          "name": "4X 情绪香氛技术",
+          "slogan": "不被情绪所累 悦享人间自由",
+          "stages": [
+            "1X 舒缓 Dreamsczentz",
+            "2X 植愈 Phytogaia",
+            "3X 愉悦 EmotiBoost",
+            "4X 活力 vivascentz"
+          ]
+        },
+        {
+          "name": "Clean Air 3X PRO 抑菌净味技术",
+          "claim": "5min 快速祛味"
+        }
+      ],
+      "performance_data": [
+        {
+          "metric": "5min 快速祛味",
+          "pollutant": "氨",
+          "value": "去除率 90.48%",
+          "condition": "5min"
+        },
+        {
+          "metric": "除尼古丁率",
+          "pollutant": "尼古丁（二手烟味）",
+          "value": "98.56%",
+          "condition": "24h"
+        },
+        {
+          "metric": "除甲醛率",
+          "pollutant": "甲醛（板材臭味）",
+          "value": "97.64%",
+          "condition": "24h"
+        },
+        {
+          "metric": "除硫化氢率",
+          "pollutant": "硫化氢（垃圾味）",
+          "value": "99.14%",
+          "condition": "24h"
+        },
+        {
+          "metric": "除氨率",
+          "pollutant": "氨（尿骚味）",
+          "value": "97.64%",
+          "condition": "24h"
+        },
+        {
+          "metric": "抑菌率",
+          "value": ">99.9%"
+        },
+        {
+          "metric": "净味留香时长",
+          "value": "约 70 天"
+        }
+      ],
+      "removable_odors": [
+        "二手烟味",
+        "板材臭味",
+        "垃圾味",
+        "尿骚味",
+        "混合臭味",
+        "真菌",
+        "细菌"
+      ],
+      "data_source": "官方商详检测数据表（5min 快速祛味 / 除尼古丁率 98.56% / 除甲醛率 97.64% / 除硫化氢率 99.14% / 除氨率 97.64%）。脚本引用以上数值属官方口径，可提示『详情页可查』"
+    },
+    "audience_scenes": {
+      "target_audience": [
+        "Z世代",
+        "小镇青年",
+        "新锐白领",
+        "精致妈妈"
+      ],
+      "scenes": [
+        "玄关",
+        "书房",
+        "车内",
+        "客厅",
+        "卧室",
+        "衣柜",
+        "卫生间",
+        "鞋柜",
+        "厨房",
+        "新装修空间",
+        "抽烟空间"
+      ],
+      "pain_points": [
+        "情绪价值",
+        "高级香氛氛围感",
+        "空间氛围感",
+        "生活质感",
+        "除味",
+        "异味",
+        "非以香盖臭",
+        "持久留香",
+        "抑菌",
+        "除甲醛",
+        "除尼古丁",
+        "好运"
+      ],
+      "value_proposition": "通过香味提升空间氛围、生活质感和情绪价值"
+    },
+    "features": [
+      "植物萃取",
+      "孕妇/小孩/宠物放心用",
+      "大人小孩放心用",
+      "不刺鼻",
+      "缓慢持续挥发",
+      "前中后调",
+      "木质香",
+      "花果香",
+      "绿叶调",
+      "多香型",
+      "倒置扩香工艺",
+      "每瓶内含装饰晶石（颜色与造型随香型不同）"
+    ],
+    "core_selling_points": [
+      {
+        "point": "根源除味",
+        "expression_ref": "拆了好几个这个香氛……味道确实散得很快"
+      },
+      {
+        "point": "倒置设计",
+        "expression_ref": "倒置的就是完全不浪费"
+      },
+      {
+        "point": "美观与情绪价值",
+        "expression_ref": "这个桃子味，紫色的这里边是紫色小石头，然后带的花蒂，这个是粉色的石头，然后加那种粉色小爱心片，摆在家里非常高级，非常好看。"
+      },
+      {
+        "point": "香味舒适",
+        "expression_ref": "但是这个也很高级很清新，没有我想象中那么甜"
+      },
+      {
+        "point": "美好寓意",
+        "expression_ref": "你可以根据它这几个的寓意去选：蓝色的是深邃雪松，这个是柑橘发财，紫色邂逅森林，桃气玫瑰，每一个里边都带的这种装饰晶石，特别的漂亮。"
+      },
+      {
+        "point": "敏感人群及宠物友好",
+        "expression_ref": "母婴可用，宠物友好"
+      },
+      {
+        "point": "大牌平替香",
+        "expression_ref": "该品牌的功能性非常牛，和大牌的香氛功能其实是一样的。"
+      }
+    ]
+  },
+  "rule_config": {
+    "R1": {
+      "description": "自动检查，无需填写：校验以下三栏格式是否正确（该是列表的是否为列表等）"
+    },
+    "R2": {
+      "description": "必须出现的关键词：每类至少命中一词才算通过；不要求可填 []（该类跳过检查）。v2.3 起仅保留品牌词与产品词两类作为强制门槛（与人工 Review 口径一致）；场景/痛点/特征词已在 content_reference（audience_scenes / features）中作参考信息，不做强制匹配。v2.4 起品牌词表加入『该品牌』、产品词表加入四个香型规范写法（佛手柑桔/无极雪松/桃气玫瑰/鸢尾邂逅）——香型俗称（柑橘发财/深邃雪松/邂逅森林）不加入词表，命名与规范写法不符不扣档、提请人工确认",
+      "must_appear": {
+        "brand": [
+          "该品牌"
+        ],
+        "product": [
+          "香氛",
+          "香薰",
+          "除味香氛",
+          "倒置香氛",
+          "佛手柑桔",
+          "无极雪松",
+          "桃气玫瑰",
+          "鸢尾邂逅"
+        ]
+      }
+    },
+    "R3": {
+      "description": "严禁出现的风险词：命中即 Flag（仅标注，不下违规结论）；没有可填 []",
+      "forbidden": {
+        "absolute_terms": {
+          "description": "极限类词语",
+          "words": [
+            "世界级",
+            "国家级",
+            "第一",
+            "唯一",
+            "首个"
+          ]
+        },
+        "false_authority": {
+          "description": "违禁权威性",
+          "words": [
+            "国家xx机关推荐",
+            "质量无需检测",
+            "官方认证",
+            "央视推荐"
+          ]
+        },
+        "medical_implication": {
+          "description": "疑似医疗用语",
+          "words": [
+            "可治疗精神疾病",
+            "疗愈",
+            "根治",
+            "医疗级",
+            "治疗",
+            "处方"
+          ]
+        }
+      }
+    },
+    "R4": {
+      "description": "CTA 行动指令词：至少命中一个才算存在；没有可填 []",
+      "cta_words": []
+    },
+    "overall": {
+      "description": "整体判定逻辑（v1.2 三档）：所有子维度均 Pass → overall = Pass；出现 Reminder 而无任何 Needs Revision → overall = Reminder；任意子维度出现 Needs Revision → overall = Needs Revision（规则层 R2 关键词缺失或 R3 命中风险词同样导致 Needs Revision）",
+      "logic": "all_pass_then_pass_only_reminder_then_reminder_any_nr_then_needs_revision"
+    }
+  },
+  "notes": {
+    "v2.0_update": "2026-09-26 架构重构为两层：content_reference 供 AI 层阅读理解，rule_config 供规则层（R1-R4）执行。原 keyword_categories 的『名词参考』与『强制匹配』双重身份就此拆分。",
+    "v2.0_selling_points": "2026-09-26 补充 content_reference.core_selling_points（7 条核心卖点及达人表达参考）；naming.classification 香型新增 alias（达人俗称/寓意名：柑橘发财/深邃雪松/邂逅森林）；features 新增装饰晶石。",
+    "v2.0_claims_correction": "2026-09-26 依据官方商详检测数据表修正 performance_data：原记录的『除味率 99.14%』实为『除硫化氢率 99.14%（垃圾味）』；新增 5min 快速祛味 90.48%、除尼古丁率 98.56%（二手烟味）、除氨率 97.64%（尿骚味）。重要：S001 中被判为『编造』的 98.56% 去除尼古丁实为官方数据，此前 brief 缺失该条导致误判。",
+    "risk_words_merge": "原 risk_words 的 user_examples 与 ai_supplements 两栏合并为 R3.forbidden.*.words（来源不再区分）",
+    "R3_scope": "沿用用户决策：脚本可自由使用『除甲醛』『有效抑菌』等卖点词，R3 只标三类风险词",
+    "pending": "『觅见』已确认非子品牌、与本工作流无关（瓶身字样，不参与命名实体）",
+    "v2.1_rule_tuning": "2026-09-26 按用户决策调整规则层：R4 cta_words 清空为 []（本次香薰诊断不做 CTA 检查，R4 跳过）；R3 极限类移除『最/顶级/极致』，违禁权威性移除『明星推荐/权威认证』，医疗用语『治愈』改为『疗愈』。",
+    "v2.2_overall_three_tier": "2026-09-26 整体判定由两档改为三档（v1.2）：全 Pass→Pass；有 Reminder 无 NR→Reminder；任一子维度 NR→Needs Revision。Prompt v1.2 正文同步写入该判定规则。",
+    "v2.3_r2_gate": "2026-09-26 R2 强制门槛收窄为品牌词+产品词两类（与人工 Review 口径一致，人工 docx 明确『R2仅按固定品牌词与产品词做字面匹配』）；场景/痛点/特征三类从 must_appear 移除，词表保留在 content_reference 作参考。另：注入 AI 层的 brief 自 v2.3 起仅含 content_reference（Prompt v1.3），rule_config 不再对 AI 可见——第 3 轮发现 AI 在 A5/reason 中引用 rule_config（R4 清空）参与语义判断，属两层职责越位。",
+    "v2.4_r2_naming": "2026-09-27 按人工批注（promptv2-badcase分析-人工核查修改版）扩展 R2 命名词表：品牌词加『该品牌』、产品词加四个香型规范写法（佛手柑桔/无极雪松/桃气玫瑰/鸢尾邂逅）。人工决策：①香型俗称不加入词表——名称与规范写法不符不扣档，仅 Reminder/人工确认（AI 层经 human_review_items 登记）；②规则层不新增命名错字标记检查（rules.py 代码不动），错字（如佛手柑橘）由人工复核把关。"
+  }
+}
